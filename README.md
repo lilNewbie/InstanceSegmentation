@@ -14,9 +14,7 @@ I have created a Semantic Segmentation model to segment potholes from an input v
 
 
 ## Structure of the U-Net Model
-
-![App Screenshot](U-Net\U_Net.png)
-
+![U_Net](https://github.com/lilNewbie/SemanticSegmentation/assets/90834922/2d0c8b3d-7713-4245-9a63-820d48c8c9cc)
 
 ## Run Locally
 
@@ -50,12 +48,25 @@ Run segfile.py
 
 
 
+## Running the Train file (SemanticSegmentation_Pothole.ipynb)
+
+- The U-Net model was trained in Google Colab.
+- You will need to use your [Kaggle public API](https://www.kaggle.com/docs/api) to access the dataset via Colab
+
+
+
 ## Sample Video
 
 **Input Video**
-
+<video width="630" height="250" src="https://github.com/lilNewbie/SemanticSegmentation/assets/90834922/f966d4e2-5a32-4bb1-b489-57d4c038f8cb.mp4"></video>
 
 **Output Video**
+<video width="630" height="250" src="https://github.com/lilNewbie/SemanticSegmentation/assets/90834922/fd07b97f-f9d5-4116-82be-c4098d01a721.mp4"></video>
+
+The difference in input and output clarity is due to resizing the input frames for prediction and later resizing it back to its actual dimensions
+
+
+
 ## Acknowledgements
 
  - [Pothole Image segmentation dataset](https://www.kaggle.com/datasets/farzadnekouei/pothole-image-segmentation-dataset)
