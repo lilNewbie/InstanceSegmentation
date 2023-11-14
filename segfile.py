@@ -7,6 +7,7 @@ from moviepy.video.io import ImageSequenceClip
 import os
 
 model = tf.keras.models.load_model('U-Net.h5', compile=False)
+os.makedir('frames')
 
 def vidGen(vid_path):
     video = cv2.VideoCapture(vid_path)
@@ -54,4 +55,4 @@ def segmentFn(image, image_shape, count):
     return 'frames/Frame' + str(count) + '.jpg'
 
 if __name__=='__main__':
-    vidGen('mixkit-potholes-in-a-rural-road-25208-medium.mp4')
+    vidGen('input_video.mp4')
