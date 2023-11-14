@@ -1,7 +1,5 @@
 import cv2
 import tensorflow as tf
-from PIL import Image
-import matplotlib as plt
 import numpy as np
 from moviepy.video.io import ImageSequenceClip
 import os
