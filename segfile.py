@@ -6,7 +6,7 @@ import numpy as np
 from moviepy.video.io import ImageSequenceClip
 import os
 
-model = tf.keras.models.load_model('my_model(1).h5', compile=False)
+model = tf.keras.models.load_model('U-Net.h5', compile=False)
 
 def vidGen(vid_path):
     video = cv2.VideoCapture(vid_path)
