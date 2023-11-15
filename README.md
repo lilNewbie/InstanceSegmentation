@@ -28,7 +28,7 @@ Following were the versions of the libraries I used
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/lilNewbie/SemanticSegmentation.git
 ```
 
 Go to the project directory
@@ -67,7 +67,7 @@ The difference in input and output clarity is due to resizing the input frames f
 
 
 
-## Acknowledgements
+## References
 
  - [Pothole Image segmentation dataset](https://www.kaggle.com/datasets/farzadnekouei/pothole-image-segmentation-dataset)
  - [U-Net architecture](https://pyimagesearch.com/2022/02/21/u-net-image-segmentation-in-keras/)
